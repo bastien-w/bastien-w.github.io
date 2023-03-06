@@ -4,8 +4,28 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
-logo: "/assets/images/logo.png"
 favicon_ico: "/assets/images/favicon.ico"
+collections:
+  articles:
+    permalink: "/:collection/:path/"
+    output: true
+  pinned_articles:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    articles:
+      name: Articles
+      nav_exclude: true
+      nav_fold: true
+      search_exclude: false
+    pinned_articles:
+      name : Pinned Articles
+      nav_exclude: false
+      nav_fold: false
+      search_exclude: false
+      
 
 search:
   # Split pages into sections that can be searched individually
