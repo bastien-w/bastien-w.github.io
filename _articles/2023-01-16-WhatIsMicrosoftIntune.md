@@ -3,7 +3,7 @@ layout: post
 author: Bastien Werhann
 search_exclude: false
 
-cat: [Intune, Bitlocker]
+cat: [Intune]
 title:  "What is Microsoft Intune"
 date:   2023-01-16 00:00:00 +0100
 resume: Microsoft Intune is a cloud-based endpoint management solution that helps organizations manage and secure the devices that access their resources, including mobile devices, desktops, and virtual endpoints.
