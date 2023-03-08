@@ -1,0 +1,21 @@
+{% assign cats = "" | split: "" %} 
+
+{% for article in site.articles %} 
+  {% assign cats = cats | push: article.cat %} 
+{% endfor %} 
+
+{% for article in site.pinned_articles %} 
+  {% assign cats = cats | push: article.cat %} 
+{% endfor %} 
+
+{% assign cats = cats | uniq %}
+
+
+
+{% assign all_articles = "" | split: "" %}
+{% for article in site.articles %}
+  {% assign all_articles = all_articles | push: article %}
+{% endfor %}
+{% for article in site.pinned_articles %}
+  {% assign all_articles = all_articles | push: article %}
+{% endfor %}
