@@ -7,6 +7,7 @@ search_exclude: true
 {% include var_custom.html %}
 
 {% for article in all_articles  %}
+{% if article.layout == 'post' %}
 # [{{ article.title }}]({{article.url}})
 <time>{{ article.date | date_to_long_string }}</time>
   {% for item in article.cat %} 
@@ -15,4 +16,5 @@ search_exclude: true
   {% endfor %}
 {{ article.resume }}
 <hr>
+{% endif %}
 {% endfor %}

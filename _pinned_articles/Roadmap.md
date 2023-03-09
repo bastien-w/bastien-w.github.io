@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Bastien Werhann
-search_exclude: false
+search_exclude: true
 
 permalink: /roadmap/
 cat: [Other]
