@@ -13,4 +13,4 @@ resume: I made a custom module to generate log for other project
 I made a custom module to generate log in powershell you can find it in my [Github](https://github.com/bastien-w/SimplePSLog) account.
 ## Result
 
-![image](/assets/images/simplePSLog.png)
+![image](/assets/images/simplePSLog.png){:target="_blank"}
