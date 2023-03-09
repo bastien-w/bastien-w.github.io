@@ -24,7 +24,7 @@ This article is to keep tracking on all the subject that i want to work on
 
 ## Microsoft Intune
 
-- What is Microsoft Intune
+- [What is Microsoft Intune](/articles/WhatIsMicrosoftIntune/)
 - Microsoft Intune - Licensing
 - Microsoft Intune - MAM
 - Microsoft Intune - Onboarding
