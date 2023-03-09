@@ -19,3 +19,4 @@
 {% for article in site.pinned_articles %}
   {% assign all_articles = all_articles | push: article %}
 {% endfor %}
+{% assign all_articles = all_articles | sort: 'date' | reverse %}
