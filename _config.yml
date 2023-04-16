@@ -20,13 +20,13 @@ timezone: Europe/Paris
 
 title: Bastien-W # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Consultant Microsoft 365 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Blog technique sur Microsoft 365 plus précisément sur la sécurité et Microsoft Intune
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://bastien-w.github.io"
 
 github:
   username: Bastien-W # change to your github username
