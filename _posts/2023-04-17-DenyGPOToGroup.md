@@ -3,6 +3,7 @@ title: How to Deny GPO to a group
 date: 2023-04-16 08:00:00 +0200
 categories: [Active Directory, Group Policy]
 tags: [security]     # TAG names should always be lowercase
+img_path: /assets/img/posts
 #pin: true
 #img_path: /img/path/
 #toc: false
