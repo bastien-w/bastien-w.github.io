@@ -5,12 +5,12 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: ""
+baseurl: "/"
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: fr
+lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Paris
@@ -20,10 +20,10 @@ timezone: Europe/Paris
 
 title: Bastien-W # the main title
 
-tagline: Consultant Microsoft 365 # it will display as the sub-title
+tagline: Microsoft 365 Consultant  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Blog technique sur Microsoft 365 plus précisément sur la sécurité et Microsoft Intune
+  Technical blog about Microsoft 365
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://bastien-w.github.io"
@@ -31,8 +31,8 @@ url: "https://bastien-w.github.io"
 github:
   username: Bastien-W # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+#  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,11 +41,11 @@ social:
   email: Bastien.Werhann@outlook.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+#    - https://twitter.com/username # change to your twitter homepage
+     - https://github.com/bastien-w # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     - https://www.linkedin.com/in/bastien-werhann/
 
 google_site_verification: # fill in to your verification string
 
@@ -80,7 +80,7 @@ theme_mode: light
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+#avatar:
 
 # boolean type, the global switch for TOC in posts.
 toc: true
