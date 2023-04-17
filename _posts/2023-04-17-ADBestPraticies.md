@@ -26,6 +26,7 @@ This list is not complet and will be updated
 8. Users, Endpoints and Servers should not be in the same OU
    1. Keep in mind that your OU should reflect something real in your organization
    2. Aim something like that :
+   
 <div class="mermaid">
 graph TD;
     A[Domain root]-->B[Bastien-W];
