@@ -42,12 +42,21 @@ In most cases Automated Device Enrollment will be used for new devices and User 
 
 ## Android
 
-In most cases for new device you will use Fully Managed or Dedicated Device depending on whenever you need users afinity or not.
-For existing device i recommand using MAM policies.
+If you aim to use Fully managed devices for new device i recommand to use MAM for existing one.
+
+If you aim to use Corporate owned work profile you can use the BYOD enrollment (Personnal with work profile)
+
+My recommandation is based on the user experience because if you aim to use Fully Managed and you do BYOD Enrollment the user will have a really different experience on the two devices. 
 
 I'm not going to cover Android AOSP which is rarely used.
 
-And Corporate Owned with work profile is deprecated since Android 11 so i'm not going to cover this.
-
-| Feature | Automated Device Enrollment | Apple Configurator | User Enrollment |
+| Feature | Personnal/WorkProfile | Fully Managed | Dedicated | Corporate/Work Profile |
 |:-:|:-:|:-:|:-:|
+|Need Reset| {{mark}}|{{check}}|{{check}}|{{check}}|
+| BYOD | {{check}} |{{mark}}|{{mark}}| {{mark}} |
+| Corporate Device |{{mark}}|{{check}}|{{check}}|{{check}}|
+| New Device |{{mark}}|{{check}}|{{check}}|{{check}}|
+| Existing Device |{{check}} |{{mark}}|{{mark}}|{{mark}}|
+| Device associated to a user |{{check}}|{{check}}|{{mark}}|{{check}}| 
+| Device not associated to a user |{{mark}}|  {{mark}} | {{check}} |{{mark}} | 
+| DEM Account |{{mark}}|{{mark}}|{{check}}|{{mark}}|
