@@ -1,6 +1,6 @@
 ---
 title: Active Directory best Practices
-date: 2023-04-17 08:00:00 +0200
+date: 2023-05-09 08:00:00 +0200
 categories: [Active Directory, Domain Controller]
 tags: [best praticices]     # TAG names should always be lowercase
 img_path: /assets/img/posts
@@ -13,19 +13,19 @@ mermaid: true
 
 ## Introduction
 In this document i will centralized all best praticices to setup an configure an Active Directory domain.
-This list is not complet and will be updated
+This list might be not complete but it is a good start.
 
 ## Items
-1. Enable reverse lookup
-2. Configure DNS redirector to at least 2 public DNS
-3. Local DNS configuration for DC have to use 127.0.0.1 at the bottom of the DNS server list
-4. Create the KDS root key to enable the use of gMSA
-5. Dispatch FSMO roles on different servers
-6. The database folder and the sysvol folder should be on dedicated disk
-7. Define naming convention for users, devices, groups
-8. Users, Endpoints and Servers should not be in the same OU
-   1. Keep in mind that your OU should reflect something real in your organization
-   2. Aim something like that :
+* Enable reverse lookup
+* Configure DNS redirector to at least 2 public DNS
+* Local DNS configuration for DC have to use 127.0.0.1 at the bottom of the DNS server list
+* Create the KDS root key to enable the use of gMSA
+* Dispatch FSMO roles on different servers
+* The database folder and the sysvol folder should be on dedicated disk
+* Define naming convention for users, devices, groups
+* Users, Endpoints and Servers should not be in the same OU
+* Keep in mind that your OU should reflect something real in your organization
+Aim something like that :
    
 <div class="mermaid">
 graph TD;

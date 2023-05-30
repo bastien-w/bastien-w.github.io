@@ -1,9 +1,9 @@
 ---
 title: How to Apply a GPO to a group
-date: 2023-04-17 08:00:00 +0200
+date: 2023-05-23 08:00:00 +0200
 categories: [Active Directory, Group Policy]
 tags: [security]     # TAG names should always be lowercase
-img_path: /assets/img/posts
+img_path: /assets/img/posts/2023-05-23-ApplyGPOToGroup
 #pin: true
 #toc: false
 #comments: false
@@ -27,8 +27,6 @@ Group Policy Objects (GPOs) are a powerful tool for managing and configuring Win
 6. In the Advanced Security Settings window, select "Authenticated Users" list and then scroll down in the "Permissions for Authenticated Users" box until you see the "Apply group policy" permission.
    
 7. Uncheck the "Apply" box next to the "Apply group policy" permission and then click "OK" to save your changes.
-   
-## Result
 
 ## Notes
 Nested group works fine and you can use this method for users and computers

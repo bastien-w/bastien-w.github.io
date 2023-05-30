@@ -1,9 +1,9 @@
 ---
 title: Simple PS Log
-date: 2023-01-01 08:00:00 +0200
+date: 2023-05-02 08:00:00 +0200
 categories: [Powershell, Module]
 tags: [bastien-w]     # TAG names should always be lowercase
-img_path: /assets/img/posts
+img_path: /assets/img/posts/2023-05-02-SimplePSLog/
 #pin: true
 #toc: false
 #comments: false
@@ -15,4 +15,4 @@ I made a custom module to generate log in powershell you can find it in my [Gith
 
 ## Result
 Here you can see a display of what the log looks like
-![image](/2023-01-01-SimplePSLog/simplePSLog.png)
+![image](simplePSLog.png)
