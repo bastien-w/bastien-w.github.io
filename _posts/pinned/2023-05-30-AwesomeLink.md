@@ -9,6 +9,7 @@ pin: true
 #comments: false
 #math: true
 #mermaid: true
+
 ---
 
 ## Microsft Skilling Snack
