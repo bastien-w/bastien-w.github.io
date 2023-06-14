@@ -24,6 +24,7 @@ This list might be not complete but it is a good start.
 * The database folder and the sysvol folder should be on dedicated disk
 * Define naming convention for users, devices, groups
 * Users, Endpoints and Servers should not be in the same OU
+* Have one GC per AD site
 * Keep in mind that your OU should reflect something real in your organization
 Aim something like that :
    
