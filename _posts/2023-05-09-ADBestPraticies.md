@@ -18,6 +18,7 @@ This list might be not complete but it is a good start.
 ## DNS Server
 * Enable reverse lookup
 * Configure DNS redirector to at least 2 public DNS
+* Use AD integrated DNS zone
 
 ## DNS Client
 * DNS configuration for DC should use 127.0.0.1 at the bottom of the DNS server list
@@ -25,6 +26,7 @@ This list might be not complete but it is a good start.
 ## Domain Controler
 * Dispatch FSMO roles on different servers
 * The database folder and the sysvol folder should be on dedicated disk
+* Do not include DC in failover cluster if virtualizied
 
 ## Active Directory
 * Enable the recycle bin
