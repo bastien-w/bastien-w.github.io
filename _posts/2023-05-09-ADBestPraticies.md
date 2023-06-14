@@ -15,17 +15,25 @@ mermaid: true
 In this document i will centralized all best praticices to setup an configure an Active Directory domain.
 This list might be not complete but it is a good start.
 
-## Items
+## DNS Server
 * Enable reverse lookup
-* Enable the recycle bin
 * Configure DNS redirector to at least 2 public DNS
-* Local DNS configuration for DC have to use 127.0.0.1 at the bottom of the DNS server list
-* Create the KDS root key to enable the use of gMSA
+
+## DNS Client
+* DNS configuration for DC should use 127.0.0.1 at the bottom of the DNS server list
+
+## Domain Controler
 * Dispatch FSMO roles on different servers
 * The database folder and the sysvol folder should be on dedicated disk
+
+## Active Directory
+* Enable the recycle bin
+* Create the KDS root key to enable the use of gMSA
+* Have one GC per AD site (Do not set GC on RODC)
+
+## Governance
 * Define naming convention for users, devices, groups
 * Users, Endpoints and Servers should not be in the same OU
-* Have one GC per AD site (Do not set GC on RODC)
 * Keep in mind that your OU should reflect something real in your organization
 Aim something like that :
    
