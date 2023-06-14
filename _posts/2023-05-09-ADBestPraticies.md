@@ -17,6 +17,7 @@ This list might be not complete but it is a good start.
 
 ## Items
 * Enable reverse lookup
+* Enable the recycle bin
 * Configure DNS redirector to at least 2 public DNS
 * Local DNS configuration for DC have to use 127.0.0.1 at the bottom of the DNS server list
 * Create the KDS root key to enable the use of gMSA
