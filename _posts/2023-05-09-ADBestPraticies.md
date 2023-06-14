@@ -35,5 +35,5 @@ graph TD;
     D[Devices]-->F[Servers];
     C[Paris]-->G[Users];
     C[Paris]-->H[Groups];
-    B[Bastien-W]-->I[Londre]-->J[...];
+    B[Bastien-W]-->I[London]-->J[...];
 </div>
