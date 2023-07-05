@@ -1,15 +1,6 @@
 ---
-title: Awesome Link
-date: 2023-05-30 08:00:00 +0200
-categories: [Misc]
-tags: [bastien-w]     # TAG names should always be lowercase
-img_path: /assets/img/posts/2023-05-30-AwesomeLink/
-pin: true
-#toc: false
-#comments: false
-#math: true
-#mermaid: true
-
+icon: fas fa-link
+order: 6
 ---
 
 ## Microsft Skilling Snack

@@ -1,6 +1,6 @@
 ---
 title: TITLE
-date: YYYY-MM-DD HH:MM:SS +0200
+date: YYYY-MM-DD 08:00:00 +0200
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 img_path: /assets/img/posts

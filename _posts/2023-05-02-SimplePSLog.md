@@ -10,9 +10,9 @@ img_path: /assets/img/posts/2023-05-02-SimplePSLog/
 #math: true
 #mermaid: true
 ---
-
 I made a custom module to generate log in powershell you can find it in my [Github](https://github.com/bastien-w/SimplePSLog){:target="_blank"} account.
 
 ## Result
+
 Here you can see a display of what the log looks like
 ![image](simplePSLog.png)

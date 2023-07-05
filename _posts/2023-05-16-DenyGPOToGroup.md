@@ -11,9 +11,11 @@ img_path: /assets/img/posts/2023-05-23-ApplyGPOToGroup
 #mermaid: true
 ---
 ## Introduction
+
 Group Policy Objects (GPOs) are a powerful tool for managing and configuring Windows environments. However, there may be times when you want to prevent a GPO from being applied to a specific group of users or computers within your Active Directory (AD) environment. In this post, we'll show you how to deny GPO application for an AD group.
 
 ## How to
+
 1. Open the Group Policy Management Console (GPMC) by going to Start > Administrative Tools > Group Policy Management.
 
 2. In the left pane of the GPMC, expand the Forest and Domain nodes until you see the Group Policy Objects node. Right-click on the GPO that you want to prevent from being applied to the AD group and select "Edit".
@@ -31,7 +33,9 @@ Group Policy Objects (GPOs) are a powerful tool for managing and configuring Win
 8. Check the "Deny" box next to the "Apply group policy" permission and then click "OK" to save your changes.
 
 ## Notes
+
 Nested group works fine and you can use this method for users and computers
 
 ## Conclusion
+
 That's it! The GPO will now be denied for members of the specified AD group. Keep in mind that denying a GPO can have unintended consequences, so be sure to test your changes thoroughly before implementing them in a production environment.
