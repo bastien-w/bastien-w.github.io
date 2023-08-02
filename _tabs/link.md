@@ -21,3 +21,6 @@ order: 6
 ## Microsoft defender for identity
 
 * [Honeytoken Best Praticices](https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/deceptive-defense-best-practices-for-identity-based-honeytokens/ba-p/3851641)
+
+## Drawing tools
+* [Quick and easy to use drawing tools](https://www.tldraw.com/)
